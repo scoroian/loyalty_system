@@ -1,0 +1,23 @@
+{
+  "name": "sistemasfidelizacion",
+  "version": "1.0.0",
+  "description": "![Logo del Proyecto](https://github.com/scoroian/loyalty_system/blob/main/Logo.png)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scoroian/loyalty_system.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scoroian/loyalty_system/issues"
+  },
+  "homepage": "https://github.com/scoroian/loyalty_system#readme",
+  "dependencies": {
+    "express": "^5.0.1",
+    "sqlite3": "^5.1.7"
+  }
+}
