@@ -2,9 +2,11 @@
   "name": "sistemasfidelizacion",
   "version": "1.0.0",
   "description": "![Logo del Proyecto](https://github.com/scoroian/loyalty_system/blob/main/Logo.png)",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "cross-env NODE_ENV=development nodemon --watch src --exec ts-node src/index.ts",
+    "build": "tsc",
+    "serve": "node dist/main.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +20,10 @@
   "homepage": "https://github.com/scoroian/loyalty_system#readme",
   "dependencies": {
     "express": "^5.0.1",
+    "sqlite": "^5.1.1",
     "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "@types/node": "^22.9.0"
   }
 }
